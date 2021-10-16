@@ -1,0 +1,5 @@
+Sample	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences
+ERR3417904_PRJEB33381_Sus.Scrofa_Testis_R1	68.35322800259445	53.0	150.0	36.36363636363637	187142746.0
+ERR3417904_PRJEB33381_Sus.Scrofa_Testis_R2	64.62950352932415	53.0	150.0	27.27272727272727	187142746.0
+ERR3417918_PRJEB33381_Sus.Scrofa_Liver_PE1	61.54463112960704	49.0	149.99997836900937	18.181818181818183	41653201.0
+ERR3417918_PRJEB33381_Sus.Scrofa_Liver_PE2	58.40467780216058	49.0	149.99938484919804	18.181818181818183	41653201.0

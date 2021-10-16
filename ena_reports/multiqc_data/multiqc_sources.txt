@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	ERR3417904_PRJEB33381_Sus.Scrofa_Testis_R1	/localData/alunos/haniel.cedraz/aula_ZOO_765/reports/ERR3417904_PRJEB33381_Sus.Scrofa_Testis_R1_001_fastqc.zip
+FastQC	all_sections	ERR3417904_PRJEB33381_Sus.Scrofa_Testis_R2	/localData/alunos/haniel.cedraz/aula_ZOO_765/reports/ERR3417904_PRJEB33381_Sus.Scrofa_Testis_R2_001_fastqc.zip
+FastQC	all_sections	ERR3417918_PRJEB33381_Sus.Scrofa_Liver_PE1	/localData/alunos/haniel.cedraz/aula_ZOO_765/reports/ERR3417918_PRJEB33381_Sus.Scrofa_Liver_PE1_fastqc.zip
+FastQC	all_sections	ERR3417918_PRJEB33381_Sus.Scrofa_Liver_PE2	/localData/alunos/haniel.cedraz/aula_ZOO_765/reports/ERR3417918_PRJEB33381_Sus.Scrofa_Liver_PE2_fastqc.zip

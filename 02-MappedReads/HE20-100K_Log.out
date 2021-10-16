@@ -1,0 +1,177 @@
+STAR version=2.7.9a
+STAR compilation time,server,dir=2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+##### Command Line:
+STAR --genomeDir referenceGenome/Index_STAR --readFilesIn 01-CleanedReads/HE20-100K_L001_PE1.fastq.gz 01-CleanedReads/HE20-100K_L001_PE2.fastq.gz --readFilesCommand zcat --outSAMtype BAM Unsorted SortedByCoordinate --sjdbGTFfile referenceGenome/Sus.Scrofa.chr1.gene.annotation.gtf --quantMode TranscriptomeSAM GeneCounts --outReadsUnmapped Fastx --outFileNamePrefix 02-MappedReads/HE20-100K_
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 02-MappedReads/HE20-100K_
+###### All USER parameters from Command Line:
+genomeDir                     referenceGenome/Index_STAR     ~RE-DEFINED
+readFilesIn                   01-CleanedReads/HE20-100K_L001_PE1.fastq.gz   01-CleanedReads/HE20-100K_L001_PE2.fastq.gz        ~RE-DEFINED
+readFilesCommand              zcat        ~RE-DEFINED
+outSAMtype                    BAM   Unsorted   SortedByCoordinate        ~RE-DEFINED
+sjdbGTFfile                   referenceGenome/Sus.Scrofa.chr1.gene.annotation.gtf     ~RE-DEFINED
+quantMode                     TranscriptomeSAM   GeneCounts        ~RE-DEFINED
+outReadsUnmapped              Fastx     ~RE-DEFINED
+outFileNamePrefix             02-MappedReads/HE20-100K_     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+genomeDir                         referenceGenome/Index_STAR
+readFilesIn                       01-CleanedReads/HE20-100K_L001_PE1.fastq.gz   01-CleanedReads/HE20-100K_L001_PE2.fastq.gz   
+readFilesCommand                  zcat   
+outFileNamePrefix                 02-MappedReads/HE20-100K_
+outReadsUnmapped                  Fastx
+outSAMtype                        BAM   Unsorted   SortedByCoordinate   
+sjdbGTFfile                       referenceGenome/Sus.Scrofa.chr1.gene.annotation.gtf
+quantMode                         TranscriptomeSAM   GeneCounts   
+
+-------------------------------
+##### Final effective command line:
+STAR   --genomeDir referenceGenome/Index_STAR   --readFilesIn 01-CleanedReads/HE20-100K_L001_PE1.fastq.gz   01-CleanedReads/HE20-100K_L001_PE2.fastq.gz      --readFilesCommand zcat      --outFileNamePrefix 02-MappedReads/HE20-100K_   --outReadsUnmapped Fastx   --outSAMtype BAM   Unsorted   SortedByCoordinate      --sjdbGTFfile referenceGenome/Sus.Scrofa.chr1.gene.annotation.gtf   --quantMode TranscriptomeSAM   GeneCounts   
+----------------------------------------
+
+Number of fastq files for each mate = 1
+
+   Input read files for mate 1 :
+-rw-rw-r--. 1 haniel.cedraz alunos 4489322 Oct 16 14:30 01-CleanedReads/HE20-100K_L001_PE1.fastq.gz
+
+   readsCommandsFile:
+exec > "02-MappedReads/HE20-100K__STARtmp/tmp.fifo.read1"
+echo FILE 0
+zcat      "01-CleanedReads/HE20-100K_L001_PE1.fastq.gz"
+
+
+   Input read files for mate 2 :
+-rw-rw-r--. 1 haniel.cedraz alunos 4364290 Oct 16 14:30 01-CleanedReads/HE20-100K_L001_PE2.fastq.gz
+
+   readsCommandsFile:
+exec > "02-MappedReads/HE20-100K__STARtmp/tmp.fifo.read2"
+echo FILE 0
+zcat      "01-CleanedReads/HE20-100K_L001_PE2.fastq.gz"
+
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+WARNING: --limitBAMsortRAM=0, will use genome size as RAM limit for BAM sorting
+Finished loading and checking parameters
+Reading genome generation parameters:
+### STAR   --runMode genomeGenerate      --runThreadN 10   --genomeDir referenceGenome/Index_STAR   --genomeFastaFiles referenceGenome/Sus.Scrofa.chr1.genome.dna.toplevel.fa      --sjdbGTFfile referenceGenome/Sus.Scrofa.chr1.gene.annotation.gtf   --sjdbOverhang 99
+### GstrandBit=32
+versionGenome                 2.7.4a     ~RE-DEFINED
+genomeType                    Full     ~RE-DEFINED
+genomeFastaFiles              referenceGenome/Sus.Scrofa.chr1.genome.dna.toplevel.fa        ~RE-DEFINED
+genomeSAindexNbases           14     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               1     ~RE-DEFINED
+genomeTransformType           None     ~RE-DEFINED
+genomeTransformVCF            -     ~RE-DEFINED
+sjdbOverhang                  99     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   referenceGenome/Sus.Scrofa.chr1.gene.annotation.gtf     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               30544759   250768637        ~RE-DEFINED
+Genome version is compatible with current STAR
+Number of real (reference) chromosomes= 1
+1	1	30000000	0
+--sjdbOverhang = 99 taken from the generated genome
+Started loading the genome: Sat Oct 16 14:38:12 2021
+
+Genome: size given as a parameter = 30544759
+SA: size given as a parameter = 250768637
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=14  nSAi=357913940
+nGenome=30544759;  nSAbyte=250768637
+GstrandBit=32   SA number of indices=60792396
+Shared memory is not used for genomes. Allocated a private copy of the genome.
+Genome file size: 30544759 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 30544759 bytes
+SA file size: 250768637 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 250768637 bytes
+Loading SAindex ... done: 1565873619 bytes
+Finished loading the genome: Sat Oct 16 14:38:13 2021
+
+Processing splice junctions database sjdbN=2001,   pGe.sjdbOverhang=99 
+alignIntronMax=alignMatesGapMax=0, the max intron size will be approximately determined by (2^winBinNbits)*winAnchorDistNbins=589824
+Oct 16 14:38:13   Loaded database junctions from the generated genome referenceGenome/Index_STAR//sjdbList.out.tab: 2001 total junctions
+
+Oct 16 14:38:13 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=referenceGenome/Sus.Scrofa.chr1.gene.annotation.gtf, found:
+		430 transcripts
+		4850 exons (non-collapsed)
+		2003 collapsed junctions
+Total junctions: 4004
+Oct 16 14:38:13 ..... finished GTF processing
+
+Oct 16 14:38:13   Finished preparing junctions
+Oct 16 14:38:13 ..... inserting junctions into the genome indices
+Oct 16 14:38:13   Finished SA search: number of new junctions=0, old junctions=2001
+Oct 16 14:38:13   Finished sorting SA indicesL nInd=0
+Genome size with junctions=30544759  30146560   398199
+GstrandBit1=32   GstrandBit=32
+Oct 16 14:38:14   Finished inserting junction indices
+Oct 16 14:38:18   Finished SAi
+Oct 16 14:38:18 ..... finished inserting junctions into genome
+Loaded transcript database, nTr=430
+Loaded exon database, nEx=4850
+Opening the file: 02-MappedReads/HE20-100K__STARtmp//Unmapped.out.mate0.thread0 ... ok
+Opening the file: 02-MappedReads/HE20-100K__STARtmp//Unmapped.out.mate1.thread0 ... ok
+Starting to map file # 0
+mate 1:   01-CleanedReads/HE20-100K_L001_PE1.fastq.gz
+mate 2:   01-CleanedReads/HE20-100K_L001_PE2.fastq.gz
+Thread #0 end of input stream, nextChar=-1
+BAM sorting: 190033 mapped reads
+BAM sorting bins genomic start loci:
+1	0	576322
+2	0	874801
+3	0	1262955
+4	0	2005213
+5	0	2545740
+6	0	2552567
+7	0	3255557
+8	0	4738358
+9	0	5607371
+10	0	6820123
+11	0	7389139
+12	0	7611890
+13	0	7715739
+14	0	8061426
+15	0	8449835
+16	0	8723816
+17	0	9150678
+18	0	9799783
+19	0	11156026
+20	0	11586276
+21	0	12159303
+22	0	13431736
+23	0	14111907
+24	0	14692563
+25	0	14909291
+26	0	15211596
+27	0	15731872
+28	0	16207713
+29	0	16386007
+30	0	16828777
+31	0	17314550
+32	0	18385691
+33	0	19059303
+34	0	19921049
+35	0	20549874
+36	0	20874388
+37	0	21176211
+38	0	21476226
+39	0	21869717
+40	0	22835659
+41	0	23800903
+42	0	24854645
+43	0	25440830
+44	0	25995347
+45	0	27055086
+46	0	27704781
+47	0	28261812
+48	0	28926137
+Completed: thread #0
+Oct 16 14:41:51 ..... started sorting BAM
+Max memory needed for sorting = 1460877
+ALL DONE!
