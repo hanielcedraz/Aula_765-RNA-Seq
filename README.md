@@ -6,5 +6,5 @@ https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/rnaSeqAnalysisZOO765.ip
 
 
 ```
-[This is formatted as code](https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/rnaSeqAnalysisZOO765.ipynb)
+[# This is formatted as code](https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/rnaSeqAnalysisZOO765.ipynb)
 ```
