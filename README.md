@@ -6,5 +6,5 @@ Open the file <a href="https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/
 
 
 ```
-<a href="https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/rnaSeqAnalysisZOO765.ipynb">rnaSeqAnalysisZOO765.ipynb</a>
+https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/rnaSeqAnalysisZOO765.ipynb">rnaSeqAnalysisZOO765.ipynb
 ```
