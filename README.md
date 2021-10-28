@@ -1,10 +1,10 @@
 # Introduction to bioinformatics
 
-Open file rnaSeqAnalysisZOO765.ipynb and click on "Open In Colab" button to follow the tutorial in Google Colab.
+Open the file <a href="https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/rnaSeqAnalysisZOO765.ipynb">rnaSeqAnalysisZOO765.ipynb</a> and click on "Open In Colab" button to follow the tutorial in Google Colab.
 
-https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/rnaSeqAnalysisZOO765.ipynb
+
 
 
 ```
-https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/rnaSeqAnalysisZOO765.ipynb
+<a href="https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/rnaSeqAnalysisZOO765.ipynb">rnaSeqAnalysisZOO765.ipynb</a>
 ```
