@@ -4,7 +4,8 @@ Open the file <a href="https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/
 
 
 
-
+<!---
 ```
-#https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/rnaSeqAnalysis.ipynb">rnaSeqAnalysis.ipynb
+https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/rnaSeqAnalysis.ipynb">rnaSeqAnalysis.ipynb
 ```
+-->
