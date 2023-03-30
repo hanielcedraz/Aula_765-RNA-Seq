@@ -13,7 +13,7 @@ https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/rnaSeqAnalysis.ipynb">r
 
 
 ## Downloading fastq files
-Download the files in 00-Fastq
+Download the files in <a href="https://github.com/hanielcedraz/RNA-Seq_Course/tree/main/00-Fastq" target="_blank">00-Fastq</a> 
 
 
 ## Loading conda env
