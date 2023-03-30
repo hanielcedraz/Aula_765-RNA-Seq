@@ -19,30 +19,32 @@ Download the fastq files in <a href="https://github.com/hanielcedraz/RNA-Seq_Cou
 ## Loading conda env
 Download the yaml file that contains the conda env: <a href="https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/curso_RNA-Seq.yaml" target="_blank">curso_RNA-Seq.yaml</a>  
 
-Run:
+
+
+#### Download latest version of Miniconda installer
+access https://docs.conda.io/en/latest/miniconda.html and choose Miniconda3 Linux 64-bit
+
 ```shell
-# Download Miniconda installer
 wget https://repo.anaconda.com/miniconda/Miniconda3-py37_4.11.0-Linux-x86_64.sh
+```
 
-# Activate conda base env
-conda activate base
-
-
-# Install miniconda
+#### Install miniconda
+```
 bash Miniconda3-py37_4.11.0-Linux-x86_64.sh
+```
 
+#### Activate conda base env
+```
+conda activate base
+```
 
-
-# Update conda to the latest version if needed
+#### Update conda to the latest version if needed
+```
 conda update conda
+```
 
-
-
-# Display active channels
-conda config --show channels
-
-
-# Create stgen env from yaml
+#### Create stgen env from yaml
+```
 conda env create -f curso_RNA-Seq.yaml
 
 ```
