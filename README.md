@@ -20,7 +20,7 @@ Download the files in <a href="https://github.com/hanielcedraz/RNA-Seq_Course/tr
 Download the file <a href="https://github.com/hanielcedraz/RNA-Seq_Course/blob/main/curso_RNA-Seq.yaml" target="_blank">curso_RNA-Seq.yaml</a>  
 
 Run:
-´´´
+´´´bash
 # Download Miniconda installer
 wget https://repo.anaconda.com/miniconda/Miniconda3-py37_4.11.0-Linux-x86_64.sh
 
@@ -44,4 +44,5 @@ conda config --show channels
 
 # Create stgen env from yaml
 conda env create -f curso_RNA-Seq.yaml
+
 ´´´
