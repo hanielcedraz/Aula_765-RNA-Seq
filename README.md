@@ -37,7 +37,7 @@ conda activate base
 
 #### Update conda to the latest version if needed
 ```
-conda update conda
+conda update -n base -c defaults conda
 ```
 
 #### Download the yaml file that contains the conda env: <a href="https://raw.githubusercontent.com/hanielcedraz/RNA-Seq_Course/main/curso_RNA-Seq.yaml" target="_blank">curso_RNA-Seq.yaml</a>  
