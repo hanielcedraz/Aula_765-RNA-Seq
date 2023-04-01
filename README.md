@@ -43,7 +43,7 @@ conda activate base
 conda update conda
 ```
 
-#### Create stgen env from yaml
+#### Create curso_RNA-Seq env from yaml
 ```
 conda env create -f curso_RNA-Seq.yaml
 
